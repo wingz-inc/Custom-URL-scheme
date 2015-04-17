@@ -22,6 +22,7 @@
   <issue>https://github.com/EddyVerbruggen/Custom-URL-scheme/issues</issue>
 
   <preference name="URL_SCHEME" />
+  <preference name="APP_ID" />
 
   <engines>
     <engine name="cordova" version=">=3.0.0"/>
@@ -39,6 +40,7 @@
           <key>CFBundleURLSchemes</key>
           <array>
             <string>$URL_SCHEME</string>
+            <string>fb$APP_ID</string>
           </array>
         </dict>
       </array>
