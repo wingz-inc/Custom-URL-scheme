@@ -21,15 +21,12 @@
 
   <issue>https://github.com/EddyVerbruggen/Custom-URL-scheme/issues</issue>
 
-  <preference name="URL_SCHEME" />
-  <preference name="APP_ID" />
-
   <engines>
     <engine name="cordova" version=">=3.0.0"/>
   </engines>
 
   <!-- ios -->
-  <platform name="ios">
+  <!--<platform name="ios">
     <js-module src="www/ios/LaunchMyApp.js" name="LaunchMyApp">
       <clobbers target="window.plugins.launchmyapp" />
     </js-module>
@@ -45,7 +42,7 @@
         </dict>
       </array>
     </config-file>
-  </platform>
+  </platform>-->
 
   <!-- android -->
   <platform name="android">
