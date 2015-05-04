@@ -21,6 +21,8 @@
 
   <issue>https://github.com/EddyVerbruggen/Custom-URL-scheme/issues</issue>
 
+  <preference name="URL_SCHEME" />
+
   <engines>
     <engine name="cordova" version=">=3.0.0"/>
   </engines>
